@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ItemWin</class>
+ <widget class="QWidget" name="ItemWin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>192</width>
+    <height>186</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel#nameLb{
+border-bottom-left-radius:1em;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2" stretch="2,1">
+     <item>
+      <widget class="QLabel" name="pictrueLb">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/1.jpg);
+border-radius:10px;
+border:2px solid;
+border-top-left-radius:1em;
+border-top-right-radius:1em;
+border-bottom-left-radius:1em;
+border-bottom-right-radius:1em;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="0">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="nameLb">
+           <property name="font">
+            <font>
+             <family>华光中圆_CNKI</family>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius:2px;
+background-color: rgba(255, 156, 70,0.9);
+</string>
+           </property>
+           <property name="text">
+            <string>红烧肉</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="priceLb">
+           <property name="font">
+            <font>
+             <family>华光中圆_CNKI</family>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius:2px;
+background-color: rgb(60, 246, 255);</string>
+           </property>
+           <property name="text">
+            <string>30元/分</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

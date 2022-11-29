@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/usr/tips.png</file>
+        <file>res/usr/menu_B.jpg</file>
+        <file>res/usr/adi.png</file>
+        <file>res/usr/list.png</file>
+        <file>res/usr/pro.png</file>
+        <file>res/usr/data.png</file>
+        <file>res/usr/print.png</file>
+        <file>res/usr/wifi.png</file>
+        <file>res/usr/usr.png</file>
+        <file>res/usr/find.png</file>
+        <file>res/usr/return.png</file>
+        <file>res/usr/insert.png</file>
+        <file>res/usr/plus.png</file>
+    </qresource>
+</RCC>

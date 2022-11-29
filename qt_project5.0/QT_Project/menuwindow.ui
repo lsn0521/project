@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MenuWindow</class>
+ <widget class="QMainWindow" name="MenuWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MenuWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#MenuWindow
+{
+	background-color: rgb(45, 53, 64);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QPushButton#Orderbt
+{
+background-color: rgba(47, 56, 71,1);
+color: rgb(255, 255, 255);
+border:2px solid;
+border-style:solid;
+border-width:3px;
+	font: 18pt &quot;华光行楷_CNKI&quot;;
+}
+QPushButton#servicebt
+{
+	background-color: rgba(47, 56, 71,1);
+color: rgb(255, 255, 255);
+border:2px solid;
+border-style:solid;
+border-width:3px;
+font: 18pt &quot;华光行楷_CNKI&quot;;
+}
+QPushButton#Recombt
+{
+	background-color: rgba(47, 56, 71,1);
+color: rgb(255, 255, 255);
+border:2px solid;
+border-style:solid;
+border-width:3px;
+font: 16pt &quot;华光行楷_CNKI&quot;;
+}
+QPushButton#guicaibt
+{
+	background-color: rgba(47, 56, 71,1);
+color: rgb(255, 255, 255);
+border:2px solid;
+border-style:solid;
+border-width:3px;
+font: 16pt &quot;华光行楷_CNKI&quot;;
+}
+QPushButton#yinpin
+{
+	background-color: rgba(47, 56, 71,1);
+color: rgb(255, 255, 255);
+border:2px solid;
+border-style:solid;
+border-width:3px;
+font: 16pt &quot;华光行楷_CNKI&quot;;
+}
+QPushButton#yuecai
+{
+	background-color: rgba(47, 56, 71,1);
+color: rgb(255, 255, 255);
+border:2px solid;
+border-style:solid;
+border-width:3px;
+font: 16pt &quot;华光行楷_CNKI&quot;;
+}
+
+QLineEdit#OrderEdit{
+border-radius:5px;
+	background-color: rgba(255, 255, 255,0);
+font: 9pt &quot;华光粗黑_CNKI&quot;;
+	color: rgb(255, 255, 255);
+}
+
+QLineEdit#peopleEdit{
+border-radius:5px;
+background-color: rgba(255, 255, 255,0);
+font: 9pt &quot;华光粗黑_CNKI&quot;;
+color: rgb(255, 255, 255);
+}
+
+QLineEdit#tableEdit{
+border-radius:5px;
+background-color: rgba(255, 255, 255,0);
+font: 9pt &quot;华光粗黑_CNKI&quot;;
+color: rgb(255, 255, 255);
+}
+
+QLineEdit#serEdit{
+border-radius:5px;
+background-color: rgba(255, 255, 255,0);
+font: 9pt &quot;华光粗黑_CNKI&quot;;
+color: rgb(255, 255, 255);
+}
+QLabel#Orderbel{
+	color: rgb(255, 255, 255);
+	font: 9pt &quot;华光粗黑_CNKI&quot;;
+
+}
+QLabel#peoplebel{
+	color: rgb(255, 255, 255);
+font: 9pt &quot;华光粗黑_CNKI&quot;;
+
+}
+QLabel#tablebel{
+	color: rgb(255, 255, 255);
+font: 9pt &quot;华光粗黑_CNKI&quot;;
+
+}
+QLabel#serbel{
+	color: rgb(255, 255, 255);
+font: 9pt &quot;华光粗黑_CNKI&quot;;
+
+}
+QPushButton#logoButton{
+	border-image: url(:/load/logo.png);
+	border-radius:30px;
+}
+QLineEdit#lineEdit{
+border-radius:5px;
+	background-color: rgba(255, 255, 255,0);
+}
+QTableWidget#Table_on{
+	background-color: rgba(255, 255, 255,0.8);
+}
+</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_4" stretch="2,10">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="2,8">
+        <property name="spacing">
+         <number>1</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="logoButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="servicebt">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>服务</string>
+            </property>
+            <property name="icon">
+             <iconset resource="load.qrc">
+              <normaloff>:/load/ser.png</normaloff>:/load/ser.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>46</width>
+              <height>46</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="Orderbt">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>已点</string>
+            </property>
+            <property name="icon">
+             <iconset resource="load.qrc">
+              <normaloff>:/load/ding.png</normaloff>:/load/ding.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>46</width>
+              <height>46</height>
+             </size>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="2,8">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_3" stretch="4,15">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="widget" native="true">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,10">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="Orderbel">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>订单号：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="OrderEdit">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,10">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="tablebel">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>桌  号：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="tableEdit">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,10">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="peoplebel">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>人  数：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="peopleEdit">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,10">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="serbel">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>服务号：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="serEdit">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="Recombt">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>推荐</string>
+              </property>
+              <property name="icon">
+               <iconset resource="load.qrc">
+                <normaloff>:/load/rec.png</normaloff>:/load/rec.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>47</width>
+                <height>47</height>
+               </size>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="guicaibt">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>主菜</string>
+              </property>
+              <property name="icon">
+               <iconset resource="load.qrc">
+                <normaloff>:/load/ma.png</normaloff>:/load/ma.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>47</width>
+                <height>47</height>
+               </size>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="yuecai">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>炖汤</string>
+              </property>
+              <property name="icon">
+               <iconset resource="load.qrc">
+                <normaloff>:/load/soup.png</normaloff>:/load/soup.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>47</width>
+                <height>47</height>
+               </size>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="yinpin">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string>饮料</string>
+              </property>
+              <property name="icon">
+               <iconset resource="load.qrc">
+                <normaloff>:/load/drink.png</normaloff>:/load/drink.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>47</width>
+                <height>47</height>
+               </size>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="Table_on">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="autoScroll">
+           <bool>true</bool>
+          </property>
+          <attribute name="horizontalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>200</number>
+          </attribute>
+          <attribute name="horizontalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderDefaultSectionSize">
+           <number>199</number>
+          </attribute>
+          <attribute name="verticalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="load.qrc"/>
+ </resources>
+ <connections/>
+</ui>

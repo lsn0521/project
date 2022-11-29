@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>load/desk.png</file>
+        <file>load/ding.png</file>
+        <file>load/hu.png</file>
+        <file>load/human.png</file>
+        <file>load/ico.png</file>
+        <file>load/in.png</file>
+        <file>load/loading2.jpg</file>
+        <file>load/logo.png</file>
+        <file>load/plus.png</file>
+        <file>load/server.png</file>
+        <file>load/lo.png</file>
+        <file>load/drink.png</file>
+        <file>load/fox.png</file>
+        <file>load/ma.png</file>
+        <file>load/rec.png</file>
+        <file>load/ser.png</file>
+        <file>load/soup.png</file>
+        <file>load/check.jpg</file>
+    </qresource>
+</RCC>

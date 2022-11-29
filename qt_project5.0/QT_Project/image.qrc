@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>add-circle.png</file>
+        <file>chose.png</file>
+        <file>minus-circle.png</file>
+    </qresource>
+</RCC>
